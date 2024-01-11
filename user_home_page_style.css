@@ -70,6 +70,15 @@
     flex: auto;
 }
 
+.lists {
+    background: #eee7e8;
+    height: 100px;
+    width: 50px;
+    margin-left: 5px;
+    margin-right: 5px;
+    flex: auto;
+}
+
 .pic{
     background: #f4acb7;
     height: 100px;
