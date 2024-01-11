@@ -38,6 +38,7 @@
     margin-left: 5px;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 80%
 }
 
 
@@ -45,6 +46,7 @@
     background: #f4acb7;
     height: 250px;
     float:left; display:inline; width: 100%;
+    overflow: scroll;
 }
 
 .fav_actors {
@@ -55,6 +57,18 @@
     font-size: 80%;
     background-color: white;
 }
+
+
+.actor {
+    margin-top: 10px;
+    margin-right: 40px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 80%;
+    position: relative;
+    display: inline-block
+}
+
 
 .back
  {
@@ -73,8 +87,14 @@ img {
     margin-bottom: 10px;
 }
 
+
 a:hover,
 a:active {
     background-color: rgb(225, 209, 209);
+}
+
+.friend_button:hover {
+    background-color: black;
+    color: white;
 }
 
