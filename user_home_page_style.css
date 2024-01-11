@@ -1,0 +1,61 @@
+.friends {
+    background: #f4acb7;
+    height: 500px;
+    margin-left: 5px;
+    margin-right: 5px;
+    flex: auto;
+}
+
+.pic{
+    background: #f4acb7;
+    height: 100px;
+    width: 100px;
+    float: right;
+    margin: 4px 2px;
+
+}
+
+a:hover,
+a:active {
+    background-color: rgb(225, 209, 209);
+}
+.button2 {
+    background-color: #e9c1e3;
+    padding: 10px 60px;
+    
+}
+.button5 {
+    background-color: #e9c1e3;
+    padding: 10px 150px;
+
+}
+.button1{
+    padding: 10px 50px;
+    float: right;
+}
+.button3{
+    padding: 10px 200px;
+}
+.button4 {
+    background-color: #e9c1e3;
+    padding: 10px 60px;
+    float: right;
+   
+}
+.button6 {
+    background-color: #e9c1e3;
+    padding: 10px 60px;
+    float: right;
+    margin-top: 90%;
+   
+}
+
+.button {
+    border: none;
+    color: rgb(23, 21, 21); 
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
