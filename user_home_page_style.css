@@ -1,9 +1,8 @@
 .friends {
     background: #f4acb7;
-    height: 500px;
+    height: 800px;
     margin-left: 5px;
     margin-right: 5px;
-    flex: auto;
 }
 
 .lists {
@@ -22,6 +21,27 @@
     float: right;
     margin: 4px 2px;
 
+}
+.list{
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 350px;
+    height: 400px;
+    background-color: white;
+
+}
+
+.description {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+
+.list_button{
+    margin-top: 100%;
+    margin-left: 25%
 }
 
 a:hover,
