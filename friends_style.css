@@ -3,6 +3,7 @@
     height: 500px;
     flex: auto;
     float:left; display:inline; width: 58%;
+    overflow-y: scroll;
 }
 
 .follow {
@@ -15,11 +16,32 @@
 
 }
 
+.list{
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 150px;
+    height: 200px;
+    background-color: white;
+
+}
+
+.description {
+    font-size: 20px;
+}
+
+.list_button{
+    margin-top: 80%;
+    margin-left: 25%
+}
+
 .friends {
     background: #f4acb7;
     height: 500px;
     flex: auto;
     float:right; display:inline; width: 39%;
+    overflow-y: scroll;
 }
 
 .Friends {
@@ -46,7 +68,7 @@
     background: #f4acb7;
     height: 250px;
     float:left; display:inline; width: 100%;
-    overflow: scroll;
+    overflow-y: scroll;
 }
 
 .fav_actors {
