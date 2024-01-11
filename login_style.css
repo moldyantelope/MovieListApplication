@@ -1,0 +1,61 @@
+.input {
+    background: #f4acb7;
+    border: 10px solid #ffe5d9;
+    padding: 50px;
+    margin-left: 20%;
+    margin-right: 20%;
+    flex: auto;
+}
+
+.input_fields {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 80%;
+
+}
+
+.or {
+    color: black;
+    font: size 30px;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.create_account
+ {
+    background-color: #353131;
+    color: white;
+    padding: 14px 45px;
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+    font-family: sans-serif;
+    margin-left: 32%;
+    font-size: 18px;
+}
+
+a:hover,
+a:active {
+    background-color: rgb(225, 209, 209);
+}
+
+
+.submit {
+    background-color: #3a4343;
+    color: rgb(243, 247, 255);
+    padding: 7px 30px;
+    text-decoration: none;
+    display: inline-block;
+    position: static;
+    margin-left: 6%;
+    margin-top: 10px;
+    font-family: sans-serif;
+    border-radius: 8px;
+    font-size: 14px;
+    border-color: antiquewhite;
+}
+
+.submit:hover,
+.submmit:active {
+    background-color: rgb(225, 209, 209);
+}
