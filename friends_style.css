@@ -1,0 +1,53 @@
+.friends {
+    background: #f4acb7;
+    height: 500px;
+    margin-left: 60%;
+    margin-right: 5px;
+    flex: auto;
+}
+
+.Friends {
+    text-align: center;
+    padding: 5px;
+    padding-top: 0%;
+    padding-left: 20%;
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 80%;
+    background-color: white;
+
+}
+
+.favorite_actors {
+    background: #f4acb7;
+    height: 250px;
+}
+
+.fav_actors {
+    background: #f4acb7;
+    height: 500px;
+    margin-left: 0%;
+    margin-right: 5px;
+    flex: auto;
+}
+
+
+
+.back
+ {
+    background-color: #353131;
+    color: white;
+    padding: 14px 45px;
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+    font-family: sans-serif;
+    margin-left: 60%;
+    font-size: 15px;
+}
+
+a:hover,
+a:active {
+    background-color: rgb(225, 209, 209);
+}
+
