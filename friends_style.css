@@ -1,19 +1,22 @@
 .followed_lists {
-    background: #f4acb7;
+    background: #F5CDCD;
     height: 500px;
     flex: auto;
     float:left; display:inline; width: 58%;
     overflow-y: scroll;
 }
 
+.fav_actors,
+.Friends,
 .follow {
-    text-align: center;
-    padding: 5px;
-    padding-top: 0%;   
+    padding:10px;
+    background-color: #B07D7D;
+    margin-top: 10px;
+    margin-left: 7px;
+    margin-right: 7px;
+    color: black;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 80%;
-    background-color: white;
-
+    font-size: 100%
 }
 
 .list{
@@ -23,7 +26,8 @@
     margin-left: 10px;
     width: 150px;
     height: 200px;
-    background-color: white;
+    background-color: whitesmoke;
+    overflow-y: hidden;
 
 }
 
@@ -37,27 +41,19 @@
 }
 
 .friends {
-    background: #f4acb7;
+    background: #F5CDCD;
     height: 500px;
     flex: auto;
     float:right; display:inline; width: 39%;
     overflow-y: scroll;
 }
 
-.Friends {
-    text-align: center;
-    padding: 5px;
-    padding-top: 0%;
-    
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 80%;
-    background-color: white;
-
-}
-
 .friend {
+    padding:10px;
+    background-color: #FFE5D9;
     margin-top: 10px;
-    margin-left: 5px;
+    margin-left: 7px;
+    margin-right: 7px;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 80%
@@ -65,21 +61,11 @@
 
 
 .favorite_actors {
-    background: #f4acb7;
+    background: #F5CDCD;
     height: 250px;
     float:left; display:inline; width: 100%;
     overflow-y: scroll;
 }
-
-.fav_actors {
-    text-align: center;
-    padding: 5px;
-    padding-top: 0%;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 80%;
-    background-color: white;
-}
-
 
 .actor {
     margin-top: 10px;
@@ -97,6 +83,7 @@
     background-color: #353131;
     color: white;
     padding: 14px 45px;
+    margin-bottom: 15px;
     text-decoration: none;
     position: relative;
     font-family: sans-serif;
@@ -107,14 +94,16 @@
 img {
     float:left;
     margin-bottom: 10px;
+    margin-right: 7px;
 }
 
-
+.list_button:hover,
 a:hover,
 a:active {
     background-color: rgb(225, 209, 209);
 }
 
+.list_button,
 .friend_button:hover {
     background-color: black;
     color: white;
