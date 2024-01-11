@@ -21,20 +21,20 @@ a:active {
 }
 .button2 {
     background-color: #e9c1e3;
-    padding: 10px 60px;
+    padding: 10px 100px;
     
 }
 .button5 {
     background-color: #e9c1e3;
-    padding: 10px 150px;
+    padding: 10px 200px;
 
 }
 .button1{
-    padding: 10px 50px;
+    padding: 10px 100px;
     float: right;
 }
 .button3{
-    padding: 10px 200px;
+    padding: 10px 300px;
 }
 .button4 {
     background-color: #e9c1e3;
@@ -46,7 +46,6 @@ a:active {
     background-color: #e9c1e3;
     padding: 10px 60px;
     float: right;
-    margin-top: 90%;
    
 }
 
