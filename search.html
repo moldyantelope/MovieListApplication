@@ -2,15 +2,17 @@
 <html lang="en">
 <head>
     <link href="/search_style.css" rel="stylesheet">
+    <script src="/search.js" rel="js"> </script>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>User home page</title>
 </head>
 <body style="background: white">
-    <input class="button button5">
-</input>
-    <button class="button button2">
+    
+    <input type="text" id="myInput" placeholder="Search for title..">
+
+    <button onclick="myFunction2()" id="button button2" >
         Search
     </button>
     <h2 class = "pic"> 
@@ -23,26 +25,23 @@
     <button class="button button1">
         Account
     </button>
-    
-    
 
-    <br><br><br><br><br><br><br>
+    <div id = "box"> 
+
+    </div>
+    
 
     <h2>Results</h2>
    
-        <h2 class = "box"> 
-                <div class = "list">
-                    <label>Movie 1</label>
-                    <br>
-                    <label class = "description">Description</label>
-                    <button class = "list_button"> Add to list</button>
-                </div>
-                
-            <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+
+    
+                    
+ 
             <button class="button button6">
                 Back
             </button>
-        </h2>
+    
     
 </body>
 </html>
