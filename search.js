@@ -41,7 +41,7 @@
                     movieInfoDiv.innerHTML = data.Error;
                 }
             })
-            .catch(error => console.error('error ', error));
+            .catch(error => console.error('Error ', error));
     }
 
     function displayMovieInfo(movies) {
